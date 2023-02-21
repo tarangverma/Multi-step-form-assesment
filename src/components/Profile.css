@@ -1,0 +1,72 @@
+.box {
+    height: 650px;
+    width: 1100px;
+    margin-left: 13%;
+    margin-top: 2%;
+    border: 2px solid #F7EFE5;
+    background: #fff;
+    border-radius: 1.2rem ;
+    overflow: hidden;
+}
+.profile {
+  background: #301E67;
+  width: 300px;
+  height: 700px;
+}
+
+.heading {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    padding: 5vh 5vh;
+    
+}
+.logo {
+   margin: 0;
+   padding: 0 8px 0 0;
+}
+.para {
+    color: goldenrod;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.p-img {
+padding: 2vh 13vh 0 13vh;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+}
+
+.name {
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    padding: 0 10vh;
+    font-size: 20px;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.details {
+
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 12px;
+}
+.details >img {
+    
+    margin: 0;
+    padding: 0 15px;
+}
+.details >p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
