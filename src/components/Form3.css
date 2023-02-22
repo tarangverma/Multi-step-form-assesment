@@ -1,0 +1,13 @@
+.button {
+    padding: 2vh 4vh;
+    color: #301E67;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background: #B4E4FF;
+    border-radius: 0.5rem;
+    border: none;
+    margin-left: 30%;
+    margin-top: 10%;
+    cursor: pointer;
+}

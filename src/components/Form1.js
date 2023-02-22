@@ -28,26 +28,26 @@ function Form1() {
                 <h2>No Extra Signatures</h2>
                 <div className='input'>
                 <p>Please enter zero, if only one signature is required</p>
-                   <input type='text'></input>
+                   <input type='text' placeholder="00"></input>
                 </div>
             </div>
             <div className='detail'>
                 <div className='input'>
                 <h2 className='input-h'>How Many Files will you be uploading in the session</h2>
-                   <input type='text'></input>
+                   <input type='text' placeholder="00"></input>
                 </div>
             </div>
             <div className='detail'>
                 <div className='input'>
                 <h2 className='input-h'>Number of Singers</h2>
-                  <input type='text'></input>
+                  <input type='text' placeholder="00"></input>
                 </div>
             </div>
             <div className='detail'>
                 <h2>Do you need Witness?</h2>
                 <div className='input'>
                 <p>Do not enter anything if you're bringing your own Witness</p>
-                   <input type='text'></input>
+                   <input type='text' placeholder="00"></input>
                 </div>
             </div>
           
