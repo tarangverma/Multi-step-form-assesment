@@ -1,0 +1,35 @@
+.head {
+
+}
+.head-1 {
+    margin-left: 5vh;
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.head-img {
+    padding-top: 2.2vh;
+}
+.head-para {
+    padding-left: 2vh;
+    margin: 0;
+    height: max-content;
+    font-family: 'Kanit', sans-serif;
+}
+.info {
+    margin-left: 5vh;
+  
+}
+.info-1 {
+    display: flex;
+}
+.info-detail {
+ padding-right: 30vh;
+}
+.info-detail >p {
+    margin: 1vh 0;
+    font-family: 'Kanit', sans-serif; 
+}
+.info-2 {
+    display: flex;
+}

@@ -1,0 +1,84 @@
+.form {
+display: flex;
+flex-direction: row;
+}
+
+.forms {
+    border: 1px solid black;
+    border-radius: 1.0rem;
+    cursor: pointer;
+    padding-left: 1vh;
+    margin-bottom: 3vh;
+    margin-left: 2vh;  
+    width: 48vh;
+    height: 18vh;
+}
+
+.forms >h1 {
+    margin: 1vh 0vh ;
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    font-weight: 300;
+}
+.forms >p {
+    margin: 1vh 0;
+    font-family: 'Kanit', sans-serif;
+    color: #DDDDDD;
+    
+}
+.forms >a {
+    margin: 1vh 0;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    color: #000;
+    padding-top: 3vh;
+} 
+.arrow {
+   padding-left: 1vh;
+}
+
+.section {
+    border: 1px solid black;
+    border-radius: 1.0rem;
+    width: 50vh;
+    margin-left: 3vh;
+}
+.main-h {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    padding: 0 5vh;
+    margin: 2vh 0;
+}
+.detail {
+    margin-top: 2vh;
+    margin-left: 3vh;
+    margin-bottom: 5vh;
+}
+.detail >h2{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+.input {
+ display: flex;
+ align-content: space-between;
+}
+.input >p {
+  margin: 0;  
+  font-family: 'Kanit', sans-serif;
+  color: #DDDDDD;
+}
+.input >input {
+    
+    border-radius: 0.5rem;
+    height: 4vh;
+    width: 8vh;
+    margin: 0 2vh;
+}
+.input-h {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 1vh 0;
+}

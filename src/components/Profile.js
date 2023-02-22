@@ -1,8 +1,17 @@
 import React from 'react'
-import Form1 from './Form1'
 import './Profile.css'
+import MultiStep from "react-multistep";
+import Form1 from './Form1'
+import Form2 from './Form2';
+import Form3 from './Form3';
 
 function Profile() {
+  const steps = [
+    { name: "Name A", component: <Form1 /> },
+    { name: "Email", component: <Form2 /> },
+    { name: "Password", component: <Form3 /> },
+  
+  ];
   return (
     <div className='box'>
         <div className='profile'>
@@ -38,7 +47,11 @@ function Profile() {
              </div>
              </div>
         </div>
-        <Form1 />
+        <div>
+          <h2 className='appointment'>New Appointment Request</h2>
+        <MultiStep steps={steps} />
+        </div>
+        
     </div>
   )
 }
